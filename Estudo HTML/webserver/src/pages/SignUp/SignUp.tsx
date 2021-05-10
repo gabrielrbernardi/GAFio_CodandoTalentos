@@ -2,13 +2,10 @@ import React, {useState, FormEvent, useEffect} from 'react';
 import { useHistory } from 'react-router-dom';
 import ToastComponent from '../../components/Toast';
 import { InputText } from 'primereact/inputtext';
-// import jwt from 'jsonwebtoken';
 
 import '../Login/login.css';
 
 import api from '../../services/api';
-
-// const secretWord = 'PalavraSecreta';
 
 const SignUp = () => {
     useEffect(() => {
